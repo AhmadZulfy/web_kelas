@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ini akan memastikan tinggi minimum halaman adalah 100% tinggi layar */
+  }
+  
+  main {
+    flex-grow: 1; /* Ini akan membuat konten utama mengisi sebanyak mungkin ruang vertikal yang tersedia */
+  }
+  
